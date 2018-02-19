@@ -1,0 +1,8 @@
+version: "3"
+services:
+  recognition:
+    image: recognition:1.0
+    build: .
+    volumes:
+      - .:/home/dockuser/code
+    entrypoint: /bin/bash
