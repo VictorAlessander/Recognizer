@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Image result and/or compare files
+*.png
+*.jpg
+*.jpeg
